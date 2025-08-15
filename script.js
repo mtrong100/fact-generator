@@ -66,7 +66,7 @@ async function fetchFact() {
 
 // Display the fact on the page
 function displayFact(fact) {
-  factText.textContent = `Fact of the day: ${fact}`;
+  factText.textContent = fact;
 }
 
 // Copy fact to clipboard with additional text
